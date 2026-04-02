@@ -9,10 +9,12 @@
     width: 900px;
     background-color: rgba(51, 47, 47, 0.8);
     text-align: center;
-    padding: 10px 0;
+    padding: 40px 0;
     margin: 0 auto;
     border-radius: 8px;
     box-shadow: 2px 4px 8px;
+    position: relative;
+    top: 250px;
 }
 
 main h1 {

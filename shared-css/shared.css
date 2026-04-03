@@ -14,6 +14,9 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 15px 60px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 #page-logo a {
@@ -26,6 +29,11 @@ header {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
+#page-logo a:hover {
+  background-color: transparent;
+
+}
+
 header ul {
   display: flex;
   justify-content: space-between;
@@ -35,7 +43,15 @@ header li {
   padding: 20px;
 }
 
-a {
+header a {
+  font-size: 20px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 241, 0);
+  padding: 12px;
+}
+header a:hover {
+  background-color: rgb(255, 241, 0);
+  color: rgb(67, 67, 67);
+  border-radius: 6px;
+  text-shadow: rgba(0, 0, 0, 0.2);
 }

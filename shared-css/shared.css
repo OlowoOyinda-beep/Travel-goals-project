@@ -55,3 +55,16 @@ header a:hover {
   border-radius: 6px;
   text-shadow: rgba(0, 0, 0, 0.2);
 }
+
+#foot {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.footer img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  padding: 15px 30px;
+}

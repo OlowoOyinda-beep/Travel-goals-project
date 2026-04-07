@@ -1,16 +1,31 @@
 body {
   background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
-  color: rgb(77, 77, 77);
+  color: rgb(68, 68, 68);
 }
 
+#page-logo a {
+  color:  rgb(183, 230, 235);
+}
 
 header {
   position: static;
 }
 
+header a {
+  color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+  background-color:  rgb(183, 230, 235);
+  color: rgb(59, 59, 59);
+}
+
 main ul {
-  margin: 0 auto;
-  width: 800px;
+  margin: 0 auto 48px auto;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
 }
 
 main li {
@@ -39,12 +54,16 @@ main li img {
 }
 
 .explore a {
-  color: rgb(6, 188, 188);
+  color: rgb(22, 211, 228);
   text-decoration: none;
   padding: 6px;
   border-radius: 3px;
 }
 
 .explore a:hover {
-  background-color: rgba(6, 188, 188, 0.1);
+  background-color: rgb(235, 253, 255);
+}
+
+li:nth-of-type(3) {
+  grid-column: 1 / span 2;
 }

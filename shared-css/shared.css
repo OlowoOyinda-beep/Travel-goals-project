@@ -3,12 +3,6 @@ body {
   margin: 0;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -31,7 +25,12 @@ header {
 
 #page-logo a:hover {
   background-color: transparent;
+}
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 header ul {
@@ -49,6 +48,7 @@ header a {
   color: rgb(255, 241, 0);
   padding: 12px;
 }
+
 header a:hover {
   background-color: rgb(255, 241, 0);
   color: rgb(67, 67, 67);
@@ -56,15 +56,23 @@ header a:hover {
   text-shadow: rgba(0, 0, 0, 0.2);
 }
 
+footer {
+  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 27, 27));
+  padding: 24px 0;
+}
+
+footer li {
+  height: 80px;
+  width: 80px;
+  margin: 0 40px;
+}
+
+.footer img {
+  height: 100%;
+  width: 100%;
+}
+
 #foot {
-  background-color: black;
-  height: 100px;
   display: flex;
   justify-content: center;
-}
-.footer img {
-  height: 70px;
-  width: 70px;
-  object-fit: cover;
-  padding: 15px 30px;
 }

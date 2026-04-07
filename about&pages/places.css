@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgb(77, 77, 77);
+}
+
+
+header {
+  position: static;
+}
+
+main ul {
+  margin: 0 auto;
+  width: 800px;
+}
+
+main li {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+main li img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.flex {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.explore {
+  text-align: end;
+}
+
+.explore a {
+  color: rgb(6, 188, 188);
+  text-decoration: none;
+  padding: 6px;
+}
+
+.explore a:hover {
+  background-color: rgba(6, 188, 188, 0.1);
+}

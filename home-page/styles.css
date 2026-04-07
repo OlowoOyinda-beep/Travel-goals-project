@@ -88,16 +88,3 @@ strong {
   padding: 24px;
   background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
 }
-
-#foot {
-  background-color: black;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-}
-.footer img {
-  height: 70px;
-  width: 70px;
-  object-fit: cover;
-  padding: 15px 30px;
-}
